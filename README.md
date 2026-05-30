@@ -48,3 +48,6 @@ OmniMeshV2/
 ├── data/              # Data mentah (csv)
 ├── models/            # Model tersimpan
 └── logs/              # Log training
+
+**OmniMeshV2** Dokumentasi
+- [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)]
