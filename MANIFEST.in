@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include requirements.txt
+recursive-include omnimesh *.py
+recursive-include examples *.py *.csv
+recursive-include tests *.py
+recursive-include scripts *.py
+recursive-include data/raw .gitkeep
+recursive-include models .gitkeep
+recursive-include logs .gitkeep
