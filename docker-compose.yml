@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  omnimesh:
+    build: .
+    container_name: omnimesh
+    runtime: nvidia  # jika pakai GPU
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    ports:
+      - "8501:8501"
+    stdin_open: true
+    tty: true
