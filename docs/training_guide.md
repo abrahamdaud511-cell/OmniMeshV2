@@ -14,3 +14,4 @@ python -m omnimesh.trainers --mode expert --data_dir ./data
 ## Scratch mode
 Gunakan TF-IDF + Logistic Regression untuk klasifikasi teks sederhana.
 ```bash
+python -m omnimesh.trainers --mode scratch --data_dir ./data --epochs 10
