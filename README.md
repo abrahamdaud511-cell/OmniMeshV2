@@ -50,4 +50,8 @@ OmniMeshV2/
 └── logs/              # Log training
 
 **OmniMeshV2** Dokumentasi
-- [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)]
+- API REFERENCE : https://docs/API.md
+- TRAINING GUIDE : https://docs/training_guide.md
+- Architecture Overview :   https://docs/architecture.md
+
+
